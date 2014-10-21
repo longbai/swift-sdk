@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		DFD5A0E719F69AD800150C64 /* swfit-sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD5A0E619F69AD800150C64 /* swfit-sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFD5A0ED19F69AD800150C64 /* swfit-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD5A0E119F69AD800150C64 /* swfit-sdk.framework */; };
-		DFD5A0F419F69AD800150C64 /* swfit_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5A0F319F69AD800150C64 /* swfit_sdkTests.swift */; };
+		DFD5A0F419F69AD800150C64 /* QiniuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5A0F319F69AD800150C64 /* QiniuTests.swift */; };
+		DFD5A0FE19F69C3900150C64 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5A0FD19F69C3900150C64 /* Alamofire.swift */; };
+		DFD5A10019F69C5500150C64 /* Qiniu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5A0FF19F69C5500150C64 /* Qiniu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,9 @@
 		DFD5A0E619F69AD800150C64 /* swfit-sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swfit-sdk.h"; sourceTree = "<group>"; };
 		DFD5A0EC19F69AD800150C64 /* swfit-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD5A0F219F69AD800150C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFD5A0F319F69AD800150C64 /* swfit_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_sdkTests.swift; sourceTree = "<group>"; };
+		DFD5A0F319F69AD800150C64 /* QiniuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiniuTests.swift; sourceTree = "<group>"; };
+		DFD5A0FD19F69C3900150C64 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		DFD5A0FF19F69C5500150C64 /* Qiniu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qiniu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,8 @@
 		DFD5A0D719F69AD800150C64 = {
 			isa = PBXGroup;
 			children = (
-				DFD5A0E319F69AD800150C64 /* swfit-sdk */,
-				DFD5A0F019F69AD800150C64 /* swfit-sdkTests */,
+				DFD5A0E319F69AD800150C64 /* source */,
+				DFD5A0F019F69AD800150C64 /* tests */,
 				DFD5A0E219F69AD800150C64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +72,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFD5A0E319F69AD800150C64 /* swfit-sdk */ = {
+		DFD5A0E319F69AD800150C64 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				DFD5A0FD19F69C3900150C64 /* Alamofire.swift */,
+				DFD5A0FF19F69C5500150C64 /* Qiniu.swift */,
 				DFD5A0E619F69AD800150C64 /* swfit-sdk.h */,
 				DFD5A0E419F69AD800150C64 /* Supporting Files */,
 			);
+			name = source;
 			path = "swfit-sdk";
 			sourceTree = "<group>";
 		};
@@ -85,12 +92,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DFD5A0F019F69AD800150C64 /* swfit-sdkTests */ = {
+		DFD5A0F019F69AD800150C64 /* tests */ = {
 			isa = PBXGroup;
 			children = (
-				DFD5A0F319F69AD800150C64 /* swfit_sdkTests.swift */,
+				DFD5A0F319F69AD800150C64 /* QiniuTests.swift */,
 				DFD5A0F119F69AD800150C64 /* Supporting Files */,
 			);
+			name = tests;
 			path = "swfit-sdkTests";
 			sourceTree = "<group>";
 		};
@@ -209,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD5A10019F69C5500150C64 /* Qiniu.swift in Sources */,
+				DFD5A0FE19F69C3900150C64 /* Alamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD5A0F419F69AD800150C64 /* swfit_sdkTests.swift in Sources */,
+				DFD5A0F419F69AD800150C64 /* QiniuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +407,7 @@
 				DFD5A0F919F69AD800150C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFD5A0FA19F69AD800150C64 /* Build configuration list for PBXNativeTarget "swfit-sdkTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +416,7 @@
 				DFD5A0FC19F69AD800150C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -27,7 +27,7 @@ pod "QiniuSwift", "~> 7.0"
 
 ```
 
-建议 QNUploadManager 创建一次重复使用, 或者使用单例方式创建.
+建议 ploadManager 创建一次重复使用, 或者使用单例方式创建.
 
 ## 测试
 

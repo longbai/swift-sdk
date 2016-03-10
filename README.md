@@ -16,9 +16,9 @@ pod "QiniuSwift", "~> 7.0"
 
 ## 运行环境
 
-| Qiniu SDK 版本 | 最低 iOS版本 | 最低 OS X 版本 ｜ 最低 tvOS 版本 | 最低 watchOS 版本 | Notes          |
+| Qiniu SDK 版本 | 最低 iOS版本 | 最低 OS X 版本 | 最低 tvOS 版本 | 最低 watchOS 版本 | Notes          |
 |:-------------:|:-----------:|:-------------:|:-------------:|:------------------:|:---------------:|
-|          7.x         |            iOS 8           |           OS X 10.9          | tvOS 9 | watchOS 2| Xcode 最低版本 7.  |
+|          7.x         |            iOS 8           |           OS X 10.9          | tvOS 9 | watchOS 2 | Xcode 最低版本 7.  |
 
 
 ## 使用方法

@@ -37,3 +37,7 @@ playground.xcworkspace
 
 # Carthage
 Carthage/Build
+
+# Cocoapods
+Podfile.lock
+Pods

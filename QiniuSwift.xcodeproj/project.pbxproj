@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CDFCD93295ECB33CBE197A42 /* Pods_QiniuSwift_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9D7B13353217552C4873E /* Pods_QiniuSwift_Mac.framework */; };
+		DF236CC51C93224C00404B14 /* Base64Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF236CC41C93224C00404B14 /* Base64Test.swift */; };
 		DF76ADC01C91C9450067B40B /* QiniuSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = DF76ADBF1C91C9450067B40B /* QiniuSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF76ADC71C91C9460067B40B /* QiniuSwift_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76ADBC1C91C9450067B40B /* QiniuSwift_Mac.framework */; };
+		DF76ADC71C91C9460067B40B /* QiniuSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76ADBC1C91C9450067B40B /* QiniuSwift.framework */; };
 		DF76ADCC1C91C9460067B40B /* QiniuSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADCB1C91C9460067B40B /* QiniuSwiftTests.swift */; };
 		DF76ADDD1C91D7FE0067B40B /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADDC1C91D7FE0067B40B /* UserAgent.swift */; };
 		DF76ADDF1C91D9450067B40B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADDE1C91D9450067B40B /* Client.swift */; };
@@ -19,11 +20,12 @@
 		DF76ADE71C91D9CB0067B40B /* RecorderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADE61C91D9CB0067B40B /* RecorderDelegate.swift */; };
 		DF76ADE91C91D9DC0067B40B /* UploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADE81C91D9DC0067B40B /* UploadManager.swift */; };
 		DF76ADEB1C91DA160067B40B /* UploadOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADEA1C91DA160067B40B /* UploadOptions.swift */; };
-		DF76ADED1C91DA440067B40B /* FormUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADEC1C91DA440067B40B /* FormUpload.swift */; };
+		DF76ADED1C91DA440067B40B /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADEC1C91DA440067B40B /* Upload.swift */; };
 		DF76ADEF1C91DA510067B40B /* ResumeUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADEE1C91DA510067B40B /* ResumeUpload.swift */; };
 		DF76ADF11C91DA880067B40B /* UploadConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADF01C91DA880067B40B /* UploadConfiguration.swift */; };
 		DF76ADF31C91DA9E0067B40B /* UploadToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADF21C91DA9E0067B40B /* UploadToken.swift */; };
 		DF76ADF51C91DB010067B40B /* FileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADF41C91DB010067B40B /* FileDelegate.swift */; };
+		DF76ADF71C92A2130067B40B /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76ADF61C92A2130067B40B /* Base64.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,8 @@
 		3ABACDE13666493E0338ECC8 /* Pods-QiniuSwift_Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuSwift_Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuSwift_Mac/Pods-QiniuSwift_Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		49870A0F5B301A581D85D124 /* Pods-QiniuSwift_Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuSwift_Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuSwift_Mac/Pods-QiniuSwift_Mac.release.xcconfig"; sourceTree = "<group>"; };
 		9BF9D7B13353217552C4873E /* Pods_QiniuSwift_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiniuSwift_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF76ADBC1C91C9450067B40B /* QiniuSwift_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QiniuSwift_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF236CC41C93224C00404B14 /* Base64Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64Test.swift; sourceTree = "<group>"; };
+		DF76ADBC1C91C9450067B40B /* QiniuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QiniuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF76ADBF1C91C9450067B40B /* QiniuSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiniuSwift.h; sourceTree = "<group>"; };
 		DF76ADC11C91C9450067B40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF76ADC61C91C9460067B40B /* QiniuSwift_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuSwift_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,11 +57,12 @@
 		DF76ADE61C91D9CB0067B40B /* RecorderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderDelegate.swift; sourceTree = "<group>"; };
 		DF76ADE81C91D9DC0067B40B /* UploadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadManager.swift; sourceTree = "<group>"; };
 		DF76ADEA1C91DA160067B40B /* UploadOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadOptions.swift; sourceTree = "<group>"; };
-		DF76ADEC1C91DA440067B40B /* FormUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormUpload.swift; sourceTree = "<group>"; };
+		DF76ADEC1C91DA440067B40B /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 		DF76ADEE1C91DA510067B40B /* ResumeUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeUpload.swift; sourceTree = "<group>"; };
 		DF76ADF01C91DA880067B40B /* UploadConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadConfiguration.swift; sourceTree = "<group>"; };
 		DF76ADF21C91DA9E0067B40B /* UploadToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadToken.swift; sourceTree = "<group>"; };
 		DF76ADF41C91DB010067B40B /* FileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDelegate.swift; sourceTree = "<group>"; };
+		DF76ADF61C92A2130067B40B /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF76ADC71C91C9460067B40B /* QiniuSwift_Mac.framework in Frameworks */,
+				DF76ADC71C91C9460067B40B /* QiniuSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +108,7 @@
 		DF76ADBD1C91C9450067B40B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF76ADBC1C91C9450067B40B /* QiniuSwift_Mac.framework */,
+				DF76ADBC1C91C9450067B40B /* QiniuSwift.framework */,
 				DF76ADC61C91C9460067B40B /* QiniuSwift_MacTests.xctest */,
 			);
 			name = Products;
@@ -127,6 +131,7 @@
 			children = (
 				DF76ADDB1C91CCCC0067B40B /* Supporting Files */,
 				DF76ADCB1C91C9460067B40B /* QiniuSwiftTests.swift */,
+				DF236CC41C93224C00404B14 /* Base64Test.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			children = (
 				DF76ADE21C91D98E0067B40B /* Error.swift */,
 				DF76ADF41C91DB010067B40B /* FileDelegate.swift */,
+				DF76ADF61C92A2130067B40B /* Base64.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -164,7 +170,7 @@
 			children = (
 				DF76ADE81C91D9DC0067B40B /* UploadManager.swift */,
 				DF76ADEA1C91DA160067B40B /* UploadOptions.swift */,
-				DF76ADEC1C91DA440067B40B /* FormUpload.swift */,
+				DF76ADEC1C91DA440067B40B /* Upload.swift */,
 				DF76ADEE1C91DA510067B40B /* ResumeUpload.swift */,
 				DF76ADF01C91DA880067B40B /* UploadConfiguration.swift */,
 				DF76ADF21C91DA9E0067B40B /* UploadToken.swift */,
@@ -228,7 +234,7 @@
 			);
 			name = QiniuSwift_Mac;
 			productName = QiniuSwift;
-			productReference = DF76ADBC1C91C9450067B40B /* QiniuSwift_Mac.framework */;
+			productReference = DF76ADBC1C91C9450067B40B /* QiniuSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DF76ADC51C91C9460067B40B /* QiniuSwift_MacTests */ = {
@@ -340,8 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF76ADED1C91DA440067B40B /* FormUpload.swift in Sources */,
+				DF76ADED1C91DA440067B40B /* Upload.swift in Sources */,
 				DF76ADE71C91D9CB0067B40B /* RecorderDelegate.swift in Sources */,
+				DF76ADF71C92A2130067B40B /* Base64.swift in Sources */,
 				DF76ADF51C91DB010067B40B /* FileDelegate.swift in Sources */,
 				DF76ADF31C91DA9E0067B40B /* UploadToken.swift in Sources */,
 				DF76ADE31C91D98E0067B40B /* Error.swift in Sources */,
@@ -360,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF236CC51C93224C00404B14 /* Base64Test.swift in Sources */,
 				DF76ADCC1C91C9460067B40B /* QiniuSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +484,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.QiniuSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QiniuSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -497,7 +505,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.QiniuSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QiniuSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

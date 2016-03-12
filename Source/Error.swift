@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public struct Error{
+    public static let Domain = "com.qiniu.swift.error"
+    
+    
+}

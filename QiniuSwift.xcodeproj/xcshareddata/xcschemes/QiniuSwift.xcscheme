@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DF76ADBB1C91C9450067B40B"
-               BuildableName = "QiniuSwift_Mac.framework"
+               BuildableName = "QiniuSwift.framework"
                BlueprintName = "QiniuSwift_Mac"
                ReferencedContainer = "container:QiniuSwift.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DF76ADBB1C91C9450067B40B"
-            BuildableName = "QiniuSwift_Mac.framework"
+            BuildableName = "QiniuSwift.framework"
             BlueprintName = "QiniuSwift_Mac"
             ReferencedContainer = "container:QiniuSwift.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DF76ADBB1C91C9450067B40B"
-            BuildableName = "QiniuSwift_Mac.framework"
+            BuildableName = "QiniuSwift.framework"
             BlueprintName = "QiniuSwift_Mac"
             ReferencedContainer = "container:QiniuSwift.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DF76ADBB1C91C9450067B40B"
-            BuildableName = "QiniuSwift_Mac.framework"
+            BuildableName = "QiniuSwift.framework"
             BlueprintName = "QiniuSwift_Mac"
             ReferencedContainer = "container:QiniuSwift.xcodeproj">
          </BuildableReference>

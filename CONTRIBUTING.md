@@ -6,7 +6,7 @@
 
 ## Pull Request要求
 
-- **代码规范** 参考常见代码。
+- **代码规范** 参考 https://github.com/github/swift-style-guide。
 
 - **代码格式** 提交前请使用Xcode格式化插件 BBUncrustifyPlugin 默认风格进行格式化。
 

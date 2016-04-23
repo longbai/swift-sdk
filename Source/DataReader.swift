@@ -1,5 +1,5 @@
 //
-//  RecorderDelegate.swift
+//  FileDelegate.swift
 //  QiniuSwift
 //
 //  Created by bailong on 16/3/11.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol RecorderDelegate{
+public protocol DataReader{
     
 }

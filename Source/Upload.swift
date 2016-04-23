@@ -9,5 +9,8 @@
 import Foundation
 
 public class Upload{
+    public func cancel() {
+        
+    }
     
 }

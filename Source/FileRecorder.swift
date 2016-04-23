@@ -8,6 +8,6 @@
 
 import Foundation
 
-public class FileRecorder{
+public class FileRecorder:Recorder{
     
 }

@@ -9,27 +9,31 @@
 import Foundation
 
 final class DefaultLogger:Logger {
-    private let level:Int;
-    init(level:Int){
+    private let level:LogLevel;
+    init(level:LogLevel){
         self.level = level;
     }
     
-    func log(level:Int, msg:String){
-        
+    func log(level:LogLevel, msg:String){
+        if level.rawValue > self.level.rawValue {
+            return
+        }
+        NSLog("%@", msg)
     }
-    func verbose(msg:String){
-        
+    
+    func v(msg:String){
+        log(LogLevel.Verbose, msg: msg)
     }
-    func debug(msg:String){
-        
+    func d(msg:String){
+        log(LogLevel.Debug, msg: msg)
     }
-    func info(msg:String){
-        
+    func i(msg:String){
+        log(LogLevel.Info, msg: msg)
     }
-    func warning(msg:String){
-        
+    func w(msg:String){
+        log(LogLevel.Warning, msg: msg)
     }
-    func error(msg:String){
-        
+    func e(msg:String){
+        log(LogLevel.Error, msg: msg)
     }
 }

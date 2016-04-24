@@ -19,7 +19,7 @@ public struct UploadConfiguration{
     public static func defaultConfiguration()->UploadConfiguration{
         let recorder = FileRecorder()
         let disableATS = isDisableAts()
-        return UploadConfiguration(up: zone0, chunkSize: 256*1024, putThreshold: 512*1024, retryMax: 3, timeoutInterval: 30, recorder: recorder, disableATS: disableATS)
+        return UploadConfiguration(up: zone0, chunkSize: 256*1024, putThreshold: 512*1024, retryMax: 3, timeoutInterval: 30, recorder: recorder, disableATS: disableATS, logger:DefaultLogger(level:LogLevel.Info))
     }
     
     /**
@@ -50,6 +50,8 @@ public struct UploadConfiguration{
     public var recorder:Recorder;
     
     public var disableATS:Bool;
+    
+    public var logger:Logger;
     
     public static let zone0 = ServiceAddress(host: "upload.qiniu.com", hostBackup: "up.qiniu.com", ips: ["183.136.139.10", "115.231.182.136"]);
     

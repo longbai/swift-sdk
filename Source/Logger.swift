@@ -8,7 +8,11 @@
 
 import Foundation
 
+public enum LogLevel:Int {
+    case Error = 1, Warning, Info, Debug, Verbose
+}
+
 public protocol Logger{
-    
-    func log(level:Int, msg:String);
+
+    func log(level:LogLevel, msg:String);
 }

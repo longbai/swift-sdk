@@ -8,17 +8,29 @@
 
 import Foundation
 
+import Alamofire
+
 public class Client{
     private let timeout:Int;
-    public init(timeout:Int){
-        self.timeout = timeout;
+    private let urlConverter:UrlConverter
+    private let proxy:[String:AnyObject]?
+    private let :Alamofire.c
+    public convenience init(timeout:Int){
+        func converter(s:String)->String{
+            return s
+        }
+        self.init(timeout:timeout, urlConverter:converter, proxy:nil);
     }
-    public func post(url:NSURL, headers:[String->String]?, body:NSData){
+    
+    public init(timeout:Int, urlConverter:UrlConverter, proxy:[String:AnyObject]?){
+        self.timeout = timeout;
+        self.urlConverter = urlConverter;
+        self.proxy = proxy;
+    }
+    public func post(url:NSURL, headers:[String:String], body:NSData){
         let request = NSMutableURLRequest(URL: url);
-        if (headers != nil) {
-//            for k, v in headers {
-//                request.addValue(v, forHTTPHeaderField: k)
-//            }
+        for (k, v) in headers {
+            request.addValue(v, forHTTPHeaderField: k)
         }
         request.HTTPMethod = "POST";
         

@@ -14,6 +14,8 @@ public struct ServiceAddress{
     public let ips:[String];
 }
 
+public typealias UrlConverter = (src:String) -> String;
+
 public struct UploadConfiguration{
     
     public static func defaultConfiguration()->UploadConfiguration{
